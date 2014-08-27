@@ -74,7 +74,7 @@ if '__main__' == __name__:
 
     s1.cmd('ifconfig s1-eth1 -multicast')
     s1.cmd('ifconfig s1-eth2 -multicast')
-    s1.cmd('ifconfig s1-eth2 -multicast')
+    s1.cmd('ifconfig s1-eth3 -multicast')
     s2.cmd('ifconfig s2-eth1 -multicast')
     s2.cmd('ifconfig s2-eth2 -multicast')
     s2.cmd('ifconfig s2-eth3 -multicast')
